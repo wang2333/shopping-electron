@@ -20,7 +20,7 @@ function Header() {
         <img src={loactionIcon} alt="" />
         大众网吧
       </div>
-      <div className="header-title">点餐系统</div>
+      <div className="header-title">在线超市</div>
       <div className="header-time">{time}</div>
     </div>
   )
