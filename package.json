@@ -1,0 +1,41 @@
+{
+  "name": "create",
+  "private": true,
+  "version": "0.0.0",
+  "main": "main.js",
+  "homepage": ".",
+  "scripts": {
+    "electron:dev": "electron . dev",
+    "electron": "electron .",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "dmg": "rm -f ./dmg/在线超市.dmg && appdmg ./dmg/dmg.json ./dmg/在线超市.dmg",
+    "package1": "electron-packager ./ 在线超市 --arch=x64 --icon=/favicon.ico --out ./ ",
+    "package2": "electron-packager ./ 在线超市 --platform=win32 --arch=x64 --out ./ ",
+    "package3": "electron-packager ./ 在线超市 --platform=win32 --arch=x64 --icon=/favicon.ico --out=./out --asar --app-version=1.0.0 --overwrite --ignore=node_modules"
+  },
+  "dependencies": {
+    "antd": "^4.23.6",
+    "axios": "^0.27.2",
+    "less": "^4.1.3",
+    "moment": "^2.29.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.22",
+    "@types/react-dom": "^18.0.7",
+    "@vitejs/plugin-react": "^2.2.0",
+    "appdmg": "^0.6.4",
+    "autoprefixer": "^10.4.12",
+    "dotenv": "^16.0.3",
+    "electron": "^21.2.0",
+    "electron-packager": "^17.0.0",
+    "less": "^4.1.3",
+    "postcss-px-to-viewport": "^1.1.1",
+    "typescript": "^4.6.4",
+    "vite": "^3.2.0"
+  }
+}
