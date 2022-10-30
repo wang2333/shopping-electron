@@ -5,7 +5,7 @@
 1. npm run dev 启动前端项目
 2. npm run electron:dev 启动 electron 项目
 
-### 打包
+### mac 系统打包
 
 1.  npm run build 打包前端项目
 2.  npm run package1 打包 electron 项目
