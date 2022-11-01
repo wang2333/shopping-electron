@@ -15,7 +15,7 @@ function makeSingleInstance() {
     }
   })
 }
-// aa
+
 // createWindow()方法来将index.html加载进一个新的BrowserWindow实例。
 function createWindow() {
   const windowOptions = {
