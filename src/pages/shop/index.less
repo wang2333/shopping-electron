@@ -1,6 +1,16 @@
+.content {
+  display: flex;
+  height: calc(100% - 70px);
+  background-color: #eeeeef;
+}
 .shop {
   height: 100%;
   background-color: #eeeeef;
+  .payModal {
+    .modal-subtitle {
+      font-weight: 500;
+    }
+  }
 }
 .header {
   position: relative;
@@ -24,11 +34,6 @@
     transform: translateX(-50%);
     font-size: 25px;
   }
-}
-.content {
-  display: flex;
-  height: calc(100% - 70px);
-  background-color: #eeeeef;
 }
 .shopcar {
   position: relative;
@@ -129,6 +134,7 @@
     margin-top: 50%;
     img {
       width: 50%;
+      height: auto;
     }
   }
 }
@@ -166,7 +172,7 @@
       display: inline-block;
       padding-bottom: 25px;
       width: 180px;
-      height: 100px;
+      height: 120px;
       box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.1);
       border-radius: 4px;
       overflow: hidden;
@@ -215,8 +221,8 @@
     .commodity-list-item-num {
       position: absolute;
       z-index: 3;
-      right: 10px;
-      top: 5px;
+      right: 3px;
+      top: 3px;
       font-size: 18px;
       color: #fff;
     }

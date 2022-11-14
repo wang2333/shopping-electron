@@ -12,7 +12,7 @@
     "preview": "vite preview",
     "dmg": "rm -f ./dmg/在线超市.dmg && appdmg ./dmg/dmg.json ./dmg/在线超市.dmg",
     "package1": "electron-packager ./ 在线超市 --arch=x64 --icon=/favicon.ico --out ./ ",
-    "package2": "electron-packager ./ 在线超市 --platform=win32 --arch=x64 --out ./ ",
+    "package2": "electron-packager ./ 在线超市 --platform=win32 --arch=x64 --out ./ --ignore=node_modules",
     "package3": "electron-packager ./ 在线超市 --platform=win32 --arch=x64 --icon=/favicon.ico --out=./out --asar --app-version=1.0.0 --overwrite --ignore=node_modules"
   },
   "dependencies": {
